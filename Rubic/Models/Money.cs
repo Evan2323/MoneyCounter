@@ -13,5 +13,7 @@ namespace Rubic.Models
         public DateTime? DateTime { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
+
+        public int BagPackID { get; set; }
     }
 }
